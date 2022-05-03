@@ -1,0 +1,11 @@
+{
+        "name": "captcha-crack",
+        "description": "crawl urls ,sitemaps",
+        "keywords": ["generate sitemaps"],
+        "website": "https://github.com/wanghaisheng/paddlehub_ppocr",
+        "repository": "https://github.com/wanghaisheng/paddlehub_ppocr",
+        "stack": "container"    
+    }
+    
+
+   
