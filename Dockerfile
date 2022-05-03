@@ -4,6 +4,12 @@ COPY PaddleOCR /PaddleOCR
 
 WORKDIR /PaddleOCR
 
+
+RUN pip install --upgrade paddlepaddle
+
+# install paddlehub
+RUN pip install --upgrade paddlehub
+
 ADD /PaddleOCR/html/app_compat.py /usr/local/lib/python3.7/site-packages/paddlehub/serving/app_compat.py
 
 RUN mkdir -p /PaddleOCR/inference/
